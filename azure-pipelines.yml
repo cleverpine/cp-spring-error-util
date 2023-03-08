@@ -23,6 +23,7 @@ steps:
       secureFile: 'settings.xml'
 
   - script: |
+      mvn --version
       cp $(settings.secureFilePath) /usr/share/apache-maven-3.9.0/conf/settings.xml
         
   - task: Maven@3
