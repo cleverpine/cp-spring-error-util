@@ -12,7 +12,7 @@
     <properties>
         <maven-compiler-source.version>17</maven-compiler-source.version>
         <maven-compiler-target.version>17</maven-compiler-target.version>
-        <revision>2.0.0</revision>
+        <revision>2.0.1</revision>
         <!-- Uncomment when running locally -->
         <!--<gpg.skip>true</gpg.skip>-->
         <spring-web.version>6.0.3</spring-web.version>
