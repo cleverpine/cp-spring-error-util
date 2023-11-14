@@ -16,8 +16,8 @@
         <!-- Uncomment when running locally -->
         <!--<gpg.skip>true</gpg.skip>-->
         <spring-web.version>6.0.3</spring-web.version>
-        <spring-boot-starter-validation.version>3.0.2</spring-boot-starter-validation.version>
-        <spring-context.version>6.0.3</spring-context.version>
+        <spring-boot-starter-validation.version>3.1.5</spring-boot-starter-validation.version>
+        <spring-context.version>6.0.6</spring-context.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
         <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
         <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-            <version>2.13.1</version>
+            <version>2.15.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -113,7 +113,7 @@
 
     <name>CP Spring Error Util</name>
     <description>Simple util library for Spring Framework projects</description>
-    <url>https://dev.azure.com/cleverpine/JavaLibs/_git/cp-spring-error-util</url>
+    <url>https://github.com/cleverpine/cp-spring-error-util</url>
 
     <licenses>
         <license>
@@ -143,9 +143,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>https://cleverpine@dev.azure.com/cleverpine/JavaLibs/_git/cp-spring-error-util</connection>
-        <developerConnection>git@ssh.dev.azure.com:v3/cleverpine/JavaLibs/cp-spring-error-util</developerConnection>
-        <url>https://dev.azure.com/cleverpine/JavaLibs/_git/cp-spring-error-util</url>
+        <connection>https://github.com/cleverpine/cp-spring-error-util</connection>
+        <developerConnection>git@github.com:cleverpine/cp-spring-error-util.git</developerConnection>
+        <url>https://github.com/cleverpine/cp-spring-error-util</url>
     </scm>
 
 </project>
