@@ -14,14 +14,15 @@
         <maven-compiler-target.version>17</maven-compiler-target.version>
         <revision>2.0.1</revision>
         <!-- Uncomment when running locally -->
-        <!--<gpg.skip>true</gpg.skip>-->
+<!--        <gpg.skip>true</gpg.skip>-->
         <spring-web.version>6.0.3</spring-web.version>
         <spring-boot-starter-validation.version>3.1.5</spring-boot-starter-validation.version>
         <spring-context.version>6.0.6</spring-context.version>
         <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
-        <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
-        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+        <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
+        <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.6.2</maven-javadoc-plugin.version>
+        <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     </properties>
 
     <dependencies>
@@ -52,6 +53,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <source>${maven-compiler-source.version}</source>
                     <target>${maven-compiler-target.version}</target>
